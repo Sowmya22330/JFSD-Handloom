@@ -1,0 +1,62 @@
+/* Styles for the login page */
+.login-page {
+    position: relative; /* Establish a positioning context */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center content vertically */
+    justify-content: flex-end; /* Align items to the right */
+    padding: 2rem; /* Add some padding */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Style for the background image */
+.background-image {
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the area without stretching */
+    z-index: -1; /* Send the image behind other content */
+}
+
+/* Style for the login container */
+.login-container {
+    background: rgba(255, 255, 255, 0.138); /* Semi-transparent white background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 2rem; /* Padding inside the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Optional: shadow effect for depth */
+    max-width: 400px; /* Maximum width for the form */
+    width: 100%; /* Full width */
+}
+
+/* Style for the login form */
+.login-form {
+    display: flex; /* Use flexbox for the form */
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 1rem; /* Space between inputs */
+}
+
+/* Style for input fields */
+.login-form input {
+    padding: 0.8rem; /* Padding for input fields */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size */
+}
+
+/* Style for the log in button */
+.login-form button {
+    padding: 0.8rem; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #c59206; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Change button color on hover */
+.login-form button:hover {
+    background-color: #b38300; /* Darker shade on hover */
+}
